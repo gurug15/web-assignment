@@ -9,7 +9,7 @@ interface StatCardType {
 
 export default function StatCard({children,title,count}: StatCardType) {
   return (
-    <div className=" m-6 flex flex-col items-center justify-center w-52 h-36 bg-opacity-50 bg-slate-800 rounded-lg shadow-sm">
+    <div className="py-10 flex flex-col items-center justify-center w-50 h-36 bg-opacity-50 bg-slate-800 rounded-lg shadow-sm shadow-slate-900">
       <div className="h-10 w-10 text-slate-100">{children}</div>
       <h3
         className="mt-2 text-lg text-slate-300"

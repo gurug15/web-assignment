@@ -55,7 +55,7 @@ export interface EngagementDataType {
 
 
 export interface ChartDataType {
-    timestamp: Date,
+    timestamp: string,
     count: number
 }
 
